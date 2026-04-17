@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Annie Walks Around</title>
+		<link rel="icon" href="favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Geo&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Geom:ital,wght@0,300..900;1,300..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Marcellus&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rubik+Puddles&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="description" content="" />
+		<style>
+		  body {
+				font-family: 'Atkinson Hyperlegible', sans-serif;
+				background-color: color(srgb 0.7445 0.7694 0.6998);
+				color: color(srgb 0.0834 0.0985 0.1111);
+				margin: 0;
+				display: grid;
+				grid-template-columns: 1fr 70ch 1fr;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				color: color(srgb 0.203 0.208 0.1863);
+				font-family: "Marcellus", "Faustina", serif;
+			}
+			:any-link {
+				color: color(srgb 0.8449 0.256 0.2435);
+			}
+		  section, header, nav, footer, .announcement {
+			  grid-column-start: 0;
+				grid-column-end: 3;
+				padding: 1em 2em;
+				margin: 0 auto;
+				line-height: 1.5;
+				p, h2 {
+					max-width: 70ch;
+				}
+			}
+			.announcement, header, nav {
+				text-align: center;
+			}
+			nav ul {
+				list-style: none;
+				display: flex;
+				justify-content: center;
+				gap: 1em;
+				padding: 0;
+			}
+			section.alt, nav {
+				background-color: color(srgb 0.9502 0.9206 0.8953);
+			}
+			.cta {
+			  display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="announcement">
+			<p>Currently accepting new clients!</p>
+		</div>
+		<header class="wave-container">
+			<div id="logo">
+				<img src="img/logo.svg" width="320" />
+			</div>
+			<div class="wordmark">
+				<h1>Annie Walks Around</h1>
+			</div>
+			<h4 class="tagline">A One-Woman Pet Care Service</h4>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>
+    			Hi there! My name is Annie Murrell, and I’ve lived in Portland for about three
+          years, moving from Ashland, Oregon in the fall of 2022. I’ve walked dogs and taken
+          care of pets professionally in PDX for almost as long as I’ve lived here, but taking
+          care of pets has been a part of my life since childhood. Since then, I’ve found so
+          much joy and fulfillment in taking care of people’s pets that I decided to start my
+          own company! When I’m not spending time with pets, you can find me bouldering,
+          camping, and making art of all kinds.
+			</p>
+
+			<p>
+		    I am licensed, bonded, and insured, and I have a certification in pet first aid. My
+				absolute favorite kind of pets to work with are rescues, but I love all kinds of
+				dogs and cats, and I pride myself in my patience, compassion, and discipline when
+				working with all animals, from show dogs to shelter pets.
+			</p>
+
+			<p>
+		    I generally provide service to West Portland, but if you live outside of this area,
+				please contact me via phone or email, and I may still be able to make something
+				work, especially if you’re just looking for an overnight pet sitter.
+			</p>
+		</section>
+		<section id="services" class="alt">
+			<h2>Services and Pricing</h2>
+
+			<p class="cta">First Time Here?</p>
+
+			<h3>Meet and Greet Session &mdash; $5</h3>
+			<p>
+		    For new potential clients, I like to schedule a meet and greet appointment with you
+				and your pets. I’ll meet you and your pet at your home, and we’ll walk through your
+				pet’s needs. We get to see how your pet and I get along, and I get to know your
+				pet’s home, needs, and routines. Ultimately, I want us both to make sure that I am a
+				good fit to take care of your pet! Meet and greets generally last around 30 to 45
+				minutes. The $5 charge covers transportation and any potential parking fees.
+			</p>
+		</section>
+		<section class="alt">
+			<h2>Dog Walking</h2>
+			<h3>Basic Walk</h3>
+			<ul class="cards">
+				<li class="card">
+					<span class="price">$15</span>
+					<span class="item">15 minutes</span>
+				</li>
+				<li class="card">
+					<span class="numeric">30</span
+					><span class="unit">minutes</span
+					><span class="price">$20</span>
+				</li>
+				<li class="card">
+					<span class="numeric">45</span
+					><span class="unit">minutes</span
+					><span class="price">$25</span>
+				</li>
+				<li class="card">
+					<span class="numeric">60</span
+					><span class="unit">minutes</span
+					><span class="price">$30</span>
+				</li>
+				<li class="card">
+					<span class="numeric">90</span
+					><span class="unit">minutes</span
+					><span class="price">$35</span>
+				</li>
+			</ul>
+			<p>
+				<strong>What a basic walk appointment entails:</strong> This is a great option if
+				your dog is friendly with other pups on-leash and you have no preferences for walk
+				location.
+			</p>
+			<h3>Extras</h3>
+			<ul>
+				<li>Additional Dog &mdash; $5</li>
+				<li>Solo Walk &mdash; $5</li>
+				<li>Adventure Walk &mdash; $5</li>
+				<li>Administer Medicine &mdash; $5</li>
+			</ul>
+			<p>
+		    When I arrive at your home, I will suit up your dog and walk them for at least the
+				scheduled time. Your dog may be walked alone or with other dogs in their
+				neighborhood, other neighborhoods, or sometimes even a park with dog-friendly hiking
+				trails! If you would like to request a solo walk, an adventure walk to a local
+				hiking trail, or if you have more than one dog, please see the Extras section. When
+				we return, I’ll make sure they have fresh water and dole out treats or food as
+				instructed! You will receive an appointment report via email after each appointment
+				is completed.
+			</p>
+		</section>
+		<section class="alt">
+			<h2>Cat Sitting</h2>
+			<h3>15 minutes &mdash; $20</h3>
+			<p>
+		    I will take care of food, litter, and water needs and use the remaining time for
+				cuddling, playtime, or whatever else your cat may need.
+			</p>
+
+			<h3>30 minutes &mdash; $28</h3>
+			<p>
+		    I will take care of food, litter, and water needs and use the remaining time for
+				cuddling, playtime, or whatever else your cat may need. This is a great option for
+				cats who really crave human attention!
+			</p>
+		</section>
+		<section class="alt">
+			<h2>Overnight Stays</h2>
+			<ul>
+				<li>One Night &mdash; $80</li>
+				<li>Extra Pet (dog or cat) &mdash; $5 per night</li>
+				<li>Extra 30 minutes walk time &mdash; $10 per night</li>
+				<li>Administer Medicine &mdash; $5 per night</li>
+			</ul>
+			<p>
+				<strong>What an overnight stay means:</strong> I will arrive at your home between 4
+				and 6pm on the first night of booking and give your dog an initial potty break. An
+				overnight stay includes a 30-minute walk at a time of your choice; for a longer
+				walk, please see add-on options above. I will feed your dog at their usual dinner
+				time and provide cuddles, playtime, potty breaks, and general company as needed. In
+				the morning, I will feed them at their usual time and give them more potty break
+				opportunities as needed. For first-time clients, we’ll talk through any more
+				specific routines and needs during our meet and greet visit. My ultimate goal is to
+				keep your pet or pets’ schedule as consistent as possible while you’re away!
+			</p>
+		</section>
+		<section id="faq">
+      <h2>FAQs</h2>
+      <details>
+        <summary>
+          <h3>What is your cancellation policy for walks and overnight stays?</h3>
+        </summary>
+        <p>
+          I have a 24 hour cancellation policy for walk and cat visit appointments. If
+          plans change, please reach out to me via email
+          <a href="mailto:annie@anniewalksaround.com">annie@anniewalksaround.com</a> to
+          cancel any appointments you no longer need at least 24 hours in advance of the
+          scheduled time. If you are unable to do so or if you have to cancel within the
+          24 hour window, you will be charged the full amount for the scheduled walk or
+          cat visit appointment.
+        </p>
+        <p>
+          For cancelling overnight stays, please contact me via email within one week of
+          the first scheduled night for the stay, or you will be charged for half of the
+          total scheduled stay.
+        </p>
+      </details>
+      <details>
+        <summary><h3>How do I schedule and pay for appointments?</h3></summary>
+        <p>
+          I use a software called Time to Pet, which handles scheduling and invoices. You
+          can request appointments and set up automatic payments through their website or
+          mobile app. You can also request appointments via email at
+          <a href="mailto:annie@anniewalksaround.com">annie@anniewalksaround.com</a>. I am
+          more than happy to help with initial setup of your client profile if needed!
+        </p>
+      </details>
+      <details>
+        <summary><h3>Do you offer discounts for cash and check payments?</h3></summary>
+        <p>
+          Yes! Clients who opt to pay via cash or check will receive a $2 discount per
+          scheduled appointment.
+        </p>
+      </details>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<picture id="annie-photo">
+		    <source srcset="img/annie.webp, img/annie-2x.webp 2x" type="image/webp" />
+		    <img srcset="img/annie.jpg, img/annie-2x.jpg 2x" src="img/annie.jpg" />
+			</picture>
+		</section>
+		<footer>
+			<small>&copy; 2026</small>
+		</footer>
+	</body>
+</html>
